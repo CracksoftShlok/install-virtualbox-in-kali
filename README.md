@@ -1,3 +1,5 @@
+## How to Install VirtualBox on Kali Linux Without Errors (2025 Guide)
+
 <img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250528224330.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 ### What is VirtualBox?
