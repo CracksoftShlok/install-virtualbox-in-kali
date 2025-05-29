@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003002.png" alt="Alt text" style="width: 100%; height: auto;" />
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250528224330.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 ### What is VirtualBox?
 
@@ -36,7 +36,7 @@ Let's get back into our topic.
 sudo apt update && sudo apt upgrade -y
 ```
 
-<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003002.png" alt="Alt text" style="width: 100%; height: auto;" />
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250528225031.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 ##### Why to Update and Upgrade ?
 
