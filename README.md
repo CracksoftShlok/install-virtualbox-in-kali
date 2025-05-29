@@ -1,5 +1,4 @@
-
-<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003002.png" alt="Alt text" width="400"/>
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003002.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 ### What is VirtualBox?
 
@@ -37,7 +36,8 @@ Let's get back into our topic.
 sudo apt update && sudo apt upgrade -y
 ```
 
-<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003002.png" alt="Alt text" width="400"/>
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003002.png" alt="Alt text" style="width: 100%; height: auto;" />
+
 ##### Why to Update and Upgrade ?
 
 VirtualBox relies on several system components like kernel modules, Linux headers, and sometimes DKMS (Dynamic Kernel Module Support) to function properly. These components are tightly coupled with the current version of your system's kernel. If your system is out of date, VirtualBox may fail to compile its necessary modules during installation, which can lead to startup errors or missing functionality like networking or USB support. Additionally, outdated systems often run into unresolved dependencies or version mismatches that can break the installation process. In some cases, you might even end up installing an older version of VirtualBox from outdated repositories, which could lack important features or security fixes. Keeping your system updated ensures compatibility and a smoother, error-free installation experience.
@@ -49,7 +49,8 @@ VirtualBox relies on several system components like kernel modules, Linux header
 sudo apt install -y virtualbox virtualbox-ext-pack
 ```
 
-<img src="" alt="Alt text" width="400"/>
+
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003002.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 ##### Why to Install VirtualBox Extensions ?
 
@@ -61,8 +62,7 @@ Installing the VirtualBox Extension Pack is an important step if you want access
 sudo usermod -aG vboxusers $USER
 ```
 
-
-<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003101.png" alt="Alt text" width="400"/>
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529003101.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 ##### Why to add User to the `vboxusers` Group ?
 
@@ -75,12 +75,12 @@ By default, your Linux user account doesn’t belong to this group. So if you tr
 sudo apt install -y linux-headers-$(uname -r)
 ```
 
-<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529163553.png" alt="Alt text" width="400"/>
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529163553.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 Installing kernel headers is an important step when setting up software like VirtualBox on Kali Linux because these headers provide the necessary files that define the interface between the Linux kernel and any modules that need to be built or compiled against it. VirtualBox relies on kernel modules such as `vboxdrv` and `vboxnetflt` to function properly, especially for tasks like managing virtual machines, networking, and USB passthrough. If the appropriate kernel headers are not installed, VirtualBox won’t be able to compile these modules, which can lead to errors during installation or runtime—most commonly, errors like “vboxdrv: Kernel driver not installed.” By running the command `sudo apt install -y linux-headers-$(uname -r)`, you ensure that the headers installed exactly match your currently running kernel version. This compatibility is critical because even a slight version mismatch can cause module compilation to fail. In short, installing kernel headers ensures that VirtualBox can integrate properly with the system and function as expected.
 
 **AND, our Virtual Box is Successfully installed ;)**
-<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529163933.png" alt="Alt text" width="400"/>
+<img src="https://raw.githubusercontent.com/CracksoftShlok/install-virtualbox-in-kali/refs/heads/main/Pasted%20image%2020250529163933.png" alt="Alt text" style="width: 100%; height: auto;" />
 
 
 
